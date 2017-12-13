@@ -1,0 +1,291 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2003856567,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user is on the mendeley homepage",
+            "match": {
+              "location": "MendeleyStepsImplementation.the_user_is_on_the_mendeley_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1098204888,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user clicks on the \"Create Account\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Create Account",
+                  "offset": 24
+                }
+              ],
+              "location": "MendeleyStepsImplementation.the_user_clicks_on_the_link(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2465203111,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MendeleyStepsImplementation.setUp()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "New Account Registration",
+        "description": "",
+        "id": "new-account-creation;new-account-registration;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 548781756,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the user is on the \"Elsevier global signin\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Elsevier global signin",
+                  "offset": 20
+                }
+              ],
+              "location": "MendeleyStepsImplementation.the_user_is_on_the_page(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 817993445,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user enters the \"arshiya.hussain\" id",
+            "match": {
+              "arguments": [
+                {
+                  "val": "arshiya.hussain",
+                  "offset": 21
+                }
+              ],
+              "location": "MendeleyStepsImplementation.the_user_enters_the_id(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11412762682,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user clicks on the \"Continue\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Continue",
+                  "offset": 24
+                }
+              ],
+              "location": "MendeleyStepsImplementation.the_user_clicks_on_the_button(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 550988521,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user is on the \"Register\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Register",
+                  "offset": 20
+                }
+              ],
+              "location": "MendeleyStepsImplementation.the_user_is_on_the_page(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 848094051,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the user enters the following information",
+            "match": {
+              "location": "MendeleyStepsImplementation.the_user_enters_the_following_information(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "given_name",
+                  "family_name",
+                  "password"
+                ],
+                "line": 17
+              },
+              {
+                "cells": [
+                  "arshiya",
+                  "hussain",
+                  "password123"
+                ],
+                "line": 18
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11949388016,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the user clicks on the \"Register\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Register",
+                  "offset": 24
+                }
+              ],
+              "location": "MendeleyStepsImplementation.the_user_clicks_on_the_button(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 566715267,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the user sees the \"You are registered\" message displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "You are registered",
+                  "offset": 19
+                }
+              ],
+              "location": "MendeleyStepsImplementation.the_user_sees_the_message_displayed(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11206217757,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "the user clicks on the \"Continue to Mendeley\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Continue to Mendeley",
+                  "offset": 24
+                }
+              ],
+              "location": "MendeleyStepsImplementation.the_user_clicks_on_the_button(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 179691,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "the user is on the \"Welcome to Mendeley\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Welcome to Mendeley",
+                  "offset": 20
+                }
+              ],
+              "location": "MendeleyStepsImplementation.the_user_is_on_the_page(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10781187490,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "the user clicks on the \"Skip this step\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Skip this step",
+                  "offset": 24
+                }
+              ],
+              "location": "MendeleyStepsImplementation.the_user_clicks_on_the_button(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1109401140,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "the user sees the profile link on the top right corner of the page",
+            "match": {
+              "location": "MendeleyStepsImplementation.the_user_sees_the_profile_link_on_the_top_right_corner_of_the_page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@mendeley_e2e_tests"
+          }
+        ]
+      }
+    ],
+    "name": "New Account Creation",
+    "description": "  As a user\n  I want to create a new mendeley account,\n  So that users can engage with our services",
+    "id": "new-account-creation",
+    "keyword": "Feature",
+    "uri": "component/feature/mendeley/create_new_account.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@mendeley_e2e_tests"
+      }
+    ]
+  }
+]
