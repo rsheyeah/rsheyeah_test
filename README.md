@@ -1,5 +1,6 @@
 # rsheyeah_test
-The test project can be found in the "qa" folder /n
+The test project can be found in the "qa" folder
+
 Pre-requisites:
 Java 8
 Gradle 3.5+
