@@ -1,5 +1,5 @@
 # rsheyeah_test
-The test project can be found in the "qa" folder
+The test project can be found in the "qa" folder. Pls. cd into it, after cloning the repo.
 
 Pre-requisites:
 Java 8
